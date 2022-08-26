@@ -10,17 +10,17 @@ function calculate(){
 }
 
 function sum(a,b){
-    document.getElementById("results").innerHTML += `<p>The sum is: <span>${a+b}</span></p>`;
+    document.getElementById("results").innerHTML += `<p>Addition: <span>${parseFloat(a+b).toFixed(1)}</span></p>`;
 } 
 
 function sub(a,b){
-    document.getElementById("results").innerHTML += `<p>The subtraction is: <span>${a-b}</span></p>`;
+    document.getElementById("results").innerHTML += `<p>Subtraction: <span>${parseFloat(a-b).toFixed(1)}</span></p>`;
 }
 
 function multi(a,b){
-    document.getElementById("results").innerHTML += `<p>The multiplication is: <span>${a*b}</span></p>`;
+    document.getElementById("results").innerHTML += `<p>Multiplication: <span>${parseFloat(a*b).toFixed(1)}</span></p>`;
 }
 
 function div(a,b){
-    document.getElementById("results").innerHTML += `<p>The division is: <span>${a/b}</span></p>`;
+    document.getElementById("results").innerHTML += `<p>Division: <span>${parseFloat(a/b).toFixed(1)}</span></p>`;
 }

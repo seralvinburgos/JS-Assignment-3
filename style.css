@@ -1,8 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: lightgray;
 }
-
+.container {
+    width: 85%;
+    height: 80vh;
+    padding: 2rem 0;
+    margin-inline: auto;   
+}
 body{
     font-family: arial;
 }
@@ -11,44 +17,64 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 40vh;
-    background-color: #ffcc00;
+    margin-bottom: 2rem;
+    height: 30vh;
+    font-size: x-large;
+    border-radius: 10px;
+    background-color: hsl(48, 100%, 45%);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 header h1 {
-    text-shadow: 2px 2px white;
+    text-shadow: 0 10px 25px rgba(0,0,0,0.5);
+    background-color: hsl(48, 100%, 45%);
 }
 main {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 4rem;
+    border-radius: 10px;
+    background-color: grey;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 
 button {
-    background-color: black;
+    background-color: rgb(57, 56, 56);
     color: white;
     padding: 20px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 20px auto;
     font-size: 20px;
 }
 button:hover {
     cursor: pointer;
-    color: #ffcc00;
+    color: hsl(48, 100%, 45%);
 }
 ol{
-    margin: 10px;
+    margin: 1rem;
 }
 .results-zone{
-    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
     padding: 1rem;
-    width: 70%;
-    height: 200px;
-    text-align: left;
+    width: 80%;
+    height: 190px;laguna
     line-height: 2.5;
-    font-size: 20px;
-    border: 3px dotted black;
+    font-size: 17px;
+    border-radius: 10px;
 }
 .results-zone span {
+    display: flex;
+    justify-content: center;
     font-weight: bold;
+    margin-top: 0.5rem;
+    font-size: 40px;
+    text-shadow: 0 10px 25px rgba(0,0,0,0.8);
 }    
+footer {
+    
+}
